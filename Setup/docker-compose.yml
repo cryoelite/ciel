@@ -1,0 +1,11 @@
+version: "3.4"
+
+services:
+  ciel:
+    image: ciel
+    build:
+      context: ../ciel/
+      dockerfile: "Dockerfile"
+    ports:
+      - "8007:80"
+      - "8008:443"
