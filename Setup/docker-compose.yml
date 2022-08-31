@@ -9,3 +9,5 @@ services:
     ports:
       - "8007:80"
       - "8008:443"
+    env_file:
+      - cielEnv.env

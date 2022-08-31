@@ -1,7 +1,21 @@
 [package]
 name = "ciel"
 version = "0.1.0"
+edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+serenity = { version = "0.11",features = [
+    "client",
+    "gateway",
+    "rustls_backend",
+    "model",
+    "framework",
+    "standard_framework",
+] }
+tokio = { version = "1.0", features = ["full"] }
+paris = { version = "1.5", features = ["timestamps", "macros"] }
+hyper = { version = "0.14", features = ["full"] }
+serde_json = "1.0"
+serde= "1.0"
