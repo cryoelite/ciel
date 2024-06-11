@@ -1,7 +1,7 @@
 
 FROM rust:1.62
 
-LABEL "Author"="cryoelite"
+LABEL "Author"="cryo"
 
 COPY src/ /usr/app/ciel/src/
 COPY Cargo.toml /usr/app/ciel/

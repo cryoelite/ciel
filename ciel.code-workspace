@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "ciel"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"discord.enabled": false
+	}
+}
